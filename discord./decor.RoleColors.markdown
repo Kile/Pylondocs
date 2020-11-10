@@ -1,3 +1,4 @@
+```ts
 commands.raw('colors', async (message) => {
   let blue = discord.decor.RoleColors.BLUE;
   let red = discord.decor.RoleColors.RED;
