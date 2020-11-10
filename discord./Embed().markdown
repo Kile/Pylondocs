@@ -1,3 +1,4 @@
+```ts
 commands.raw('invite', async (message) => {
   let embed = new discord.Embed();
   embed.setTitle('Invite link');
@@ -8,3 +9,4 @@ commands.raw('invite', async (message) => {
 
   await message.reply(embed);
 });
+```
