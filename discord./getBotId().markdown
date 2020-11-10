@@ -1,3 +1,4 @@
+```ts
 commands.raw('botid', async (message) => {
   let id = await discord.getBotId();
 
