@@ -1,3 +1,4 @@
+```ts
 commands.raw('avatar', async (message) => {
   let user = await discord.getUser(message.author.id);
   //You can insert any other ID here, even from people not on the guild
