@@ -1,5 +1,5 @@
 ```ts
-commands.raw('', async (message) => {
+commands.raw('bans', async (message) => {
   let guild = await discord.getGuild();
 
   await message.reply(
