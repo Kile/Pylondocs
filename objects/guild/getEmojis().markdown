@@ -1,6 +1,8 @@
 ```ts
 var emojilist = [];
 commands.raw('emojis', async (message) => {
+//CAREFUL!! With many emojis this is a giant message that spams the chat. Make sure you restrict it
+
   let guild = await discord.getGuild();
 
   let emojis = await guild.getEmojis();
