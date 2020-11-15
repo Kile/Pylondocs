@@ -1,6 +1,6 @@
 ```ts
 var userlist = [];
-commands.raw('Giveaway', async (message) => {
+commands.raw('giveaway', async (message) => {
   const msg = await message.reply(
     'React to this message with ' +
       discord.decor.Emojis.WHITE_CHECK_MARK +
