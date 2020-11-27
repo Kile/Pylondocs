@@ -3,7 +3,9 @@ Hello there! Looks like you chose Pylon to programm your own discord bot, easily
 This page will give you a first overview of Pylon SDK and typscript for absolute beginners so you can start experimenting
 
 First the basics:
+
   -No code will work outside an **async function** (exceptions but I will come to that later)
+  
   -To save and publish a script you need to click on **script and publish**. If this action is not successfully made it deletes your last changes
   
 __**async functions**__
