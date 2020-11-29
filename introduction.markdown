@@ -80,3 +80,16 @@ if (something){
   }
 ```
 In this case you check if the **message content** `==` (that means equals exactly) the **string** (text) 'Hello'. If that is the case we do what we did before with the command, let Pylon **reply** with 'Hello!'. **REMEMBER** that this is case sensitive, so Pylon won't trigger uf you say 'hElLo'.
+
+# Tasks
+
+With task you can scedule when Pylon does what, without a requirement like `MESSAGE_CREATE` having to be fulfilled to be activated. This is a Pylon SDK specific thing meaning nothing normal TypeScript can do. It also means you start it with `pylon.`. Here is an example of that:
+
+```ts
+pylon.tasks.cron('Hello', '0 0/30 * * * * *', async () => {
+  let guild = await discord.getGuild()
+  let channel = await guild.getTextChannel('765969331343327304')
+  
+  await channel?.sendMessage('When:tm:')
+})
+```
