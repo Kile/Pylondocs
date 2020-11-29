@@ -1,3 +1,5 @@
+## Pylon SDK and TypeScript introduction
+
 Hello there! Looks like you chose Pylon to programm your own discord bot, easily deployable with no traps or hidden costs. You have made the right choice :3
 
 This page will give you a first overview of Pylon SDK and typscript for absolute beginners so you can start experimenting
@@ -8,23 +10,26 @@ First the basics:
   
   -To save and publish a script you need to click on **script and publish**. If this action is not successfully made it deletes your last changes
   
-__**async functions**__
+## async functions
   
   What are **async functions**?
   
-  There are two ways of creating an **async funtion**. One is making a command. You first need to define that you want a command: 
+  There are three ways of creating an **async funtion**. One is making a command. You first need to define that you want a command: 
 ```ts
-const commands = new discord.command.CommandGroup()
+const commands = new discord.command.CommandGroup({
+  defaultPrefix: '!'
+});
 ```
 Great! You are all set to build your first command! You do so by using `.raw()` for a simple command, there are other options.
 Lets look at how your first command would look:
 
 ```ts
-commands.raw('test', async(message)=>{
+commands.raw('test', async (message) => {
+  await message.reply(
+    'Test complete! (This command does not actually do anything)'
+  );
+});
 
-await message.reply('Test complete! (This command doesn't actually do anything)')
-
-})
 ```
 Lets break down what exactly we are doing there. `''` means something is a **string**. A **string** is basically programmer language for normal
 text. What **string** you use at the start depends on what you want your command to be. This command is called by typing `!test`.
