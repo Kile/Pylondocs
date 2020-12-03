@@ -6,7 +6,7 @@ This page will give you a first overview of Pylon SDK and typscript for absolute
 
 First the basics:
 
-  -No code will work outside an **async function** (exceptions but I will come to that later)
+  -No code will work outside an [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions) (exceptions but I will come to that later)
   
   -To save and publish a script you need to click on **script and publish**. If this action is not successfully made it deletes your last changes
   
@@ -46,7 +46,7 @@ commands.raw('test', async (message) => {
 Lets break down what exactly we are doing there. `''` means something is a **string**. A **string** is basically programmer language for normal
 text. What **string** you use at the start depends on what you want your command to be. This command is called by typing `!test`.
 
-Next we use `async(message)=>{`. Remember when I said **async function**? Here you define it as **async function**, you will need to put this in every command,
+Next we use `async(message)=>{`. Remember when I said [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions)? Here you define it as **async function**, you will need to put this in every command,
 every other way of starting to make Pylon do something. In the `()` I wrote `message`. You can call this anything but I would call it message
 to keep track. `message` is a **discord message object**. It is the message you send to invoke this command
 
