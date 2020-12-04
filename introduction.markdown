@@ -46,9 +46,7 @@ commands.raw('test', async (message) => {
 Lets break down what exactly we are doing there. `''` means something is a **string**. A **string** is basically programmer language for normal
 text. What **string** you use at the start depends on what you want your command to be. This command is called by typing `!test`.
 
-Next we use `async(message)=>{`. Remember when I said [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions)? Here you define it as **async function**, you will need to put this in every command,
-every other way of starting to make Pylon do something. In the `()` I wrote `message`. You can call this anything but I would call it message
-to keep track. `message` is a **discord message object**. It is the message you send to invoke this command
+Next we use `async(message)=>{`. Remember when I said [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions)? Here you define it as [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions), you will need to put this in every command, every other way of starting to make Pylon do something. In the `()` I wrote `message`. You can call this anything but I would call it message to keep track. `message` is a **discord message object**. It is the message you send to invoke this command
 
 Now we start with the actual code inside the command. First I used `await`, you *can* not use it in this case but it is not good practice if you
 don't use it. We now use the `message` object we just defined in the code. We tell Pylon to **reply** to that message. This doesn't mean discord reply feature,
@@ -58,7 +56,7 @@ you use. **BUT REMEMBER**, it **must** be a string because you want to send a te
 Now all we have to do is close all `()` and `{}`.
 
 Note: Remember to always close them and to close a string after you started it with a `'`. If you don't know where to close what, look at what you opened
-first, this will be the thing you will want to close last. You mostly will use normal `()`, for now only worry about `{}` after the `=>` of an **async function**
+first, this will be the thing you will want to close last. You mostly will use normal `()`, for now only worry about `{}` after the `=>` of an [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions)
 
 # Events
 
@@ -86,10 +84,11 @@ In this case you check if the **message content** `==` (that means equals exactl
 With task you can scedule when Pylon does what, without a requirement like `MESSAGE_CREATE` having to be fulfilled to be activated. This is a Pylon SDK specific thing meaning nothing normal TypeScript can do. It also means you start it with `pylon.`. Here is an example of that:
 
 ```ts
-pylon.tasks.cron('Hello', '0 0/30 * * * * *', async () => {
+pylon.tasks.cron('Hello', '0 0 0/30 * * * * *', async () => {
   let guild = await discord.getGuild()
   let channel = await guild.getTextChannel('765969331343327304')
   
   await channel?.sendMessage('When:tm:')
 })
 ```
+*To be continued...*
