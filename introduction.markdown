@@ -93,7 +93,9 @@ pylon.tasks.cron('Hello', '0 0 0/30 * * * * *', async () => {
 ```
 
 Let's break this down: first we use something new, `pylon.`. Things that start with this are Pylon exclusive and you can't find them anywhere else. This scedules a Pylon cron task, meaning an event that us fired every x minutes/days/weeks/months etc. You first define what the cron tasks name is (It isn't actually important at all and doesn't impact what you're doing in any way). How you specify when a cron is gonna fire/in what intervall:
-`Placeholder`
+
+Look at [this](https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm)
+
 Then we are making it an [**asnyc function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions) again, this time nothing in the brackets because we have no object that activated the function like a `message` object or some other objects you will see further down the line. Then we define our `guild` object (=server) and with that object we can get a `channel` object by putting it's ID in the brackets. Having this we can use `sendMessage` on it sending the specifed message to the specified channel. This happens every 30 minutes in this case. 
 
 Note: You can only have up to 5 cron tasks in your script. Consider putting multiple things in one cron if they should happen at the same interval. 
