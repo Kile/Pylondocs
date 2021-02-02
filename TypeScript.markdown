@@ -64,8 +64,8 @@ let x: number = 5;
 
 TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better do declare the type of variables for things like readability. The types are:
 
-**Boolean**: True/False \n
-**Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number)\nl
+**Boolean**: True/False
+**Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number)
 **String**: Character**s** including emojis. Strings are written in ""!
 **Array**: An array is a list of values. You can have e.g. the array `{0, 5, 1, 7}` which has values from type `Number` in it.
 **Tuple**: 
