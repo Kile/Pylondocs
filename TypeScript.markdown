@@ -26,7 +26,22 @@ If you have an asynchronous function, but you need it's return value, you have u
 
 // further explanation of TypeScript
 
-## TypeScript primitiv types
+## Variables and TypeScripts primitiv types
+A variable is pretty much the same thing like in mathematics. You have e.g. an variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
+
+To create a variable you first need to declare it's name:
+```js
+let x;
+```
+If you are using TypeScript, I would hevaly encourage you, to declare it's type too:
+```ts
+let x: number;
+```
+After the declaration, you can initzialise it, with it's first value:
+```js
+x = 5;
+```
+
 TypeScript has 12 primitiv types of variables. One important thing to note is: these types are **just for the programer**. The code runs without saying *variable x is from type y* just fine too but it is **way** better do declare it's type. The types are:
 
 **Boolean**: True/False
