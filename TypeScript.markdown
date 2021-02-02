@@ -1,3 +1,5 @@
+## JavaScript/TypeScript introduction
+
 JavaScript/TypeScript is a **object oriented programing** (OOP) language, but does this in a different way then most programming languages. It's kinda optional.
 In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **functions**.
 ```cs
@@ -21,3 +23,7 @@ JavaScript/TypeScript is there a bit different. You can have functions **outside
 Additionaly you can easily say, do function 1 `f1()` but don't wait until it's finish, but do in parallele function 2 `f2()`. 
 This is archived with the keyword `async`.
 If you have an asynchronous function, but you need it's return value, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
+
+// further explanation of TypeScript
+
+## TypeScript primitiv types
