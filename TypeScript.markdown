@@ -29,17 +29,19 @@ If you have an asynchronous function, but you need it's return value, you have u
 ## Variables and TypeScripts primitiv types
 A variable in programing is pretty much the same thing like in mathematics. You have e.g. an variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
 
+Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other so be carefull! TypeScript on the other hand, has types which you can manage but this is completly **optional**.
+
 To create a variable you first need to **declare it's name**:
 ```js
-let x;
+let x; // declaring a new variable with the name x
 ```
 If you are using TypeScript, I would **heavily** encourage you, to **declare it's type** too:
 ```ts
-let x: number;
+let x: number; // declaring a new variable with the name x and type number
 ```
-After the declaration, you can initialize it with it's first value (after the initzialization of the first value, it isn't called initzialization anymore):
+After the declaration, you can **initialize it with it's first value** (after the initzialization of the first value, it isn't called initzialization anymore):
 ```js
-x = 5;
+x = 5; // initzialzing x with the value 5
 ```
 If you want to read it's value, just write the name of the variable:
 ```js
@@ -47,7 +49,7 @@ console.log(x); // expected output: 5
 ```
 If you want to change it's value just change it!
 ```js
-x = 6;
+x = 6; // changing the value of x to 6
 ```
 
 If you want to do this a bit shorter and write cleaner code, declare and initzialize your variables at the same time:
@@ -60,17 +62,17 @@ let x = 5;
 let x: number = 5;
 ```
 
-TypeScript has 12 primitiv types of variables. One important thing to note is: these types are **just for the programer**. The code runs without saying *variable x is from type y* just fine too but it is **way** better do declare it's type. The types are:
+TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better do declare the type of variables for things like readability. The types are:
 
 **Boolean**: True/False
 **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number)
 **String**: Character**s** including emojis. Strings are written in ""!
 **Array**: An array is a list of values. You can have e.g. the array `{0, 5, 1, 7}` which has values from type `Number` in it.
 **Tuple**: 
-Enum
-Any
-Null and Undefined
-Object
-(Void)
-(Unknown)
-(Never)
+**Enum**:
+**Any**:
+**Null**:
+**Undefined**:
+**Void**:
+**Object**:
+and Unknown, Never
