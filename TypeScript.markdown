@@ -20,5 +20,4 @@ To say it simple: a class describes an **object** with it's properties in form o
 JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes!
 Additionaly you can easily say, do function 1 `f1()` but don't wait until it's finish, but do in parallele function 2 `f2()`. 
 This is archived with the keyword `async`.
-But if you have an asynchronous function, but you need it's return value for something later, 
-you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, do all the later code.
+If you have an asynchronous function, but you need it's return value, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
