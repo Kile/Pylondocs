@@ -11,8 +11,8 @@ class MyClass { // a class
 }
 ```
 You have e.g. here a class named `MyClass`.
-`MyClass` itself has to be instanciated to work. You can think of it like the hardware of a computer. You can buy many computers and they all will have the same parts. A CPU, a GPU, RAM, some drives... but these computers have mostly different CPUs and different sizes of memory aso. They all have the same functionality and use the same parts, but there different.
-So, back to programing, all instances of `MyClass` will have a value for `x`, but the value itself may differ from one instance to another. All instances of `MyClass` have here, not just the variable `x`, but also a function called `MyFunction`. You can execut this part of the code whenever you want, but if you use `x` inside the function, it will only use the local value of `x` (the value of `x` setted in **this instance** of `MyClass`).
+`MyClass` itself has to be instanziated to work. You can think of it like the hardware of a computer. You can buy many computers and they all will have the same parts: a CPU, a GPU, RAM, some drives... but these computers will probably have different CPUs, different amount of memory... But they all have the same functionality and use the same parts (just with different values).
+Back to programing, all instances of `MyClass` will have a value for `x`, but the value itself may differ from one instance to another. All instances of `MyClass` have a function called `MyFunction`. You can execute this part of the code (the function `MyFunction`) whenever you want, but if you use `x` inside the function, it will only use the local value of `x` (the value of `x` setted in **this instance** of `MyClass`).
 In some OOP Languages, you have some kind of `Main` class, which has only one instance. So you start from it, and create new instances of other classes in it, and use the variables and functions from these instances.
 To say it simple: a class describes an **object** with it's properties in form of **variables** and **functions**.
 
@@ -24,15 +24,16 @@ This is archived with the keyword `async`.
 If you have an asynchronous function, but you need it's return value, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
 
 // further explanation of TypeScript
+// importance of clean code and doing the conventions
 
 ## Variables and TypeScripts primitiv types
-A variable is pretty much the same thing like in mathematics. You have e.g. an variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
+A variable in programing is pretty much the same thing like in mathematics. You have e.g. an variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
 
-To create a variable you first need to declare it's name:
+To create a variable you first need to **declare it's name**:
 ```js
 let x;
 ```
-If you are using TypeScript, I would **heavily** encourage you, to declare it's type too:
+If you are using TypeScript, I would **heavily** encourage you, to **declare it's type** too:
 ```ts
 let x: number;
 ```
