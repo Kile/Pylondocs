@@ -10,7 +10,7 @@ class MyClass { // a class
   }
 }
 ```
-You have e.g. here a class named `MyClass`.
+You have here a class named `MyClass`.
 `MyClass` itself has to be instanziated to work. You can think of it like the hardware of a computer. You can buy many computers and they all will have the same parts: a CPU, a GPU, RAM, some drives... but these computers will probably have different CPUs, different amount of memory... But they all have the same functionality and use the same parts (just with different values).
 Back to programing, all instances of `MyClass` will have a value for `x`, but the value itself may differ from one instance to another. All instances of `MyClass` have a function called `MyFunction`. You can execute this part of the code (the function `MyFunction`) whenever you want, but if you use `x` inside the function, it will only use the local value of `x` (the value of `x` setted in **this instance** of `MyClass`).
 In some OOP Languages, you have some kind of `Main` class, which has only one instance. So you start from it, and create new instances of other classes in it, and use the variables and functions from these instances.
