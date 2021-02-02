@@ -1,5 +1,4 @@
 ## JavaScript/TypeScript introduction
-
 JavaScript/TypeScript is a **object oriented programing** (OOP) language, but does this in a different way then most programming languages. It's kinda optional.
 In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **functions**.
 ```cs
@@ -33,13 +32,31 @@ To create a variable you first need to declare it's name:
 ```js
 let x;
 ```
-If you are using TypeScript, I would hevaly encourage you, to declare it's type too:
+If you are using TypeScript, I would **heavily** encourage you, to declare it's type too:
 ```ts
 let x: number;
 ```
-After the declaration, you can initzialise it, with it's first value:
+After the declaration, you can initialize it with it's first value (after the initzialization of the first value, it isn't called initzialization anymore):
 ```js
 x = 5;
+```
+If you want to read it's value, just write the name of the variable:
+```js
+console.log(x); // expected output: 5
+```
+If you want to change it's value just change it!
+```js
+x = 6;
+```
+
+If you want to do this a bit shorter and write cleaner code, declare and initzialize your variables at the same time:
+```js
+// JavaScript
+let x = 5;
+```
+```ts
+// TypeScript
+let x: number = 5;
 ```
 
 TypeScript has 12 primitiv types of variables. One important thing to note is: these types are **just for the programer**. The code runs without saying *variable x is from type y* just fine too but it is **way** better do declare it's type. The types are:
