@@ -27,3 +27,17 @@ If you have an asynchronous function, but you need it's return value, you have u
 // further explanation of TypeScript
 
 ## TypeScript primitiv types
+TypeScript has 12 primitiv types of variables. One important thing to note is: these types are **just for the programer**. The code runs without saying *variable x is from type y* just fine too but it is **way** better do declare it's type. The types are:
+
+**Boolean**: True/False
+**Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number)
+**String**: Character**s** including emojis. Strings are written in ""!
+**Array**: An array is a list of values. You can have e.g. the array `{0, 5, 1, 7}` which has values from type `Number` in it.
+**Tuple**: 
+Enum
+Any
+Null and Undefined
+Object
+(Void)
+(Unknown)
+(Never)
