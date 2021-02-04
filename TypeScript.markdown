@@ -7,9 +7,9 @@
 
 [**Functions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 
-[**If-Statement**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+[**If-Statement**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#if-statements)
 
-[**Loops**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+[**Loops**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#loops)
 
 [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
