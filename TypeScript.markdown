@@ -4,22 +4,22 @@ In traditional OOP languages, like C++/C# and Java, you have **classes**, were y
 ```cs
 // C# (not JavsScript/TypeScript)
 class Dog { // a class
-  string Name; // a varibale
-  int Age; // a variable
+  string name; // a varibale
+  int age; // a variable
   
   void Bark () { // a function
     // code
   }
 }
 ```
-You have here a class named `MyClass`.
-`MyClass` itself has to be instanziated to work. You can think of it like the hardware of a computer. You can buy many computers and they all will have the same parts: a CPU, a GPU, RAM, some drives... but these computers will probably have different CPUs, different amount of memory... But they all have the same functionality and use the same parts (just with different values).
-Back to programing, all instances of `MyClass` will have a value for `x`, but the value itself may differ from one instance to another. All instances of `MyClass` have a function called `MyFunction`. You can execute this part of the code (the function `MyFunction`) whenever you want, but if you use `x` inside the function, it will only use the local value of `x` (the value of `x` setted in **this instance** of `MyClass`).
-In some OOP Languages, you have some kind of `Main` class, which has only one instance. So you start from it, and create new instances of other classes in it, and use the variables and functions from these instances.
-To say it simple: a class describes an **object** with it's properties in form of **variables** and **functions**.
+You have here a class named `Dog`.
+`Dog` itself has to be instanziated to work. You can think of it like the hardware of a computer. You can buy many computers and they all will have the same parts: a CPU, a GPU, RAM, some drives... but these computers will probably have different CPUs, different amount of memory... But they all have the same functionality and use the same parts (just with different values).
+Back to programing, all instances of `Dog` will have values for `name` and `age`, but the values itself may differ from one instance to another. All instances of `Dog` have a function called `Bark()` too. You can execute this part of the code (the function `Bark()`) whenever you want, but if you use `age` or `name` inside the function, it will only use the local values of `age` and `name` (the values of `age` and `name` setted in **this instance** of `Dog`).
+In some OOP Languages, you have some kind of `Main` class, which has only one instance. So you start from it, and create new instances of other classes in it, and use the variables and functions from these instances to complete your goal.
+To say it simple: a class describes an **object** with it's properties in form of **variables** and **methodes/functions**.
 
 
-(Here is one important thing to know if you use Java/C++/C#: there is no global value for `MyClass.x` here, because you don't have a "main instance" of `MyClass`. If you want that all instances of `MyClass` have the same value for `MyClass.x` at all time, you have to make the variable `static`.)
+(Here is one important thing to know if you use Java/C++/C#: there is no global value for `Dog.name` here, because you don't have a "main instance" of `Dog`. If you want that all instances of `Dog` have the same value for `Dog.age` at all time, you have to make the variable `age` `static`.)
 
 
 JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes!
