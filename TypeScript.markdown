@@ -106,7 +106,7 @@ TypeScript has 13 primitiv types of variables. Your code will run either way but
 
 **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
 
-**String**: Character*s* including emojis. At the beginning and ending of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
+**String**: Character(s) including emojis. At the beginning and ending of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
 
 **Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
 
