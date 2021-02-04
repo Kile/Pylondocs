@@ -97,7 +97,7 @@ let myBool: boolean = true;
 
 **Array**: An array is a list of values from the same type. Every primitiv type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes the type normaly needs * lenght of the array (number of values stored))
 
-```
+```ts
 let myArray: Array<number> = {0, 5, 1, 7};
 // the same thing:
 let myArray2: number[] = {0, 5, 1, 7};
@@ -120,8 +120,6 @@ enum Color {
 
 let aValueFromEnum: Color = Color.Green;
 ```
-
-**Object**: an object is 
 
 **Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
@@ -148,5 +146,12 @@ function myFunction(): void {} // this function returns nothing, so not even nul
 
 **Any**: Can be any type.
 
-**Unknown**: The type is unknown so like `any`.
+```ts
+let anything: any = 5;
+anything = "Hello!";
+anything = false;
+```
 
+**Unknown**: The type is unknown so like `any`. It is used if you don't know what the type of the variable is.
+
+**Object**: Objects will be discusst later on.
