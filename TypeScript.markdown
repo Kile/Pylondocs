@@ -120,7 +120,7 @@ TypeScript has 13 primitiv types of variables. Your code will run either way but
 
 - **Null***: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
-- **Undefined**: It's pretty much the same as `null`, but not an object. Still `undefined === null` is a false statement (in an if statement (will come later)). (0 bytes)
+- **Undefined**: It's pretty much the same as `null`, but not an object. Still `undefined === null` is a false statement. (0 bytes)
 
 - **Void***: This means *no type at all*. Commonly used for functions, which don't return anything.
 
