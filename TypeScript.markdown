@@ -15,9 +15,9 @@
 
 - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-[**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
-
 [**Scope**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
+[**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 [**Shorthands**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
