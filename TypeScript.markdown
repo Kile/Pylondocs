@@ -5,7 +5,7 @@
 
 [**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
 
-[**Functions**]()
+[**Functions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 
 ## JavaScript/TypeScript introduction
 JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages, but does this in a different way then most programming languages. Using classes (objects) is here kinda optional.
