@@ -109,7 +109,7 @@ let myArray2: number[] = {0, 5, 1, 7};
 let myTuple: [string, number] = {"a string", 5}; // the order is important, you can't swap the position of the number and the string!
 ```
 
-**Enum**: The enum helps you, to make your code more human readable. You can use any type (byte depening on the type used)
+**Enum**: Enums helps you, to make your code more human readable. You can use any type (byte depening on the type used)
 
 ```ts
 enum Color {
