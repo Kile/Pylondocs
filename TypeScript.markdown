@@ -34,7 +34,7 @@ If you have an asynchronous function (an `async` function), but you need the val
 // importance of clean code and doing the conventions
 
 
-## Variables and TypeScripts variables
+## Variables
 A variable in programing is pretty much the same thing like in mathematics. You have e.g. a variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
 
 
