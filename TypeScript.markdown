@@ -1,7 +1,8 @@
 ## JavaScript/TypeScript introduction
-JavaScript/TypeScript is a **object oriented programing** (OOP) language, but does this in a different way then most programming languages. Using classes (objects) is kinda optional.
+JavaScript/TypeScript (JS/TS) is a **object oriented programing** (OOP) language, but does this in a different way then most programming languages. Using classes (objects) is kinda optional.
 In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **methodes/functions**.
 ```cs
+// C# (not JavsScript/TypeScript)
 class MyClass { // a class
   int x; // a variable
   
