@@ -260,6 +260,7 @@ do {
 // expected output: 0 1 2 3 4
 ```
 
+
 The `for`-Loop uses a new variable (which is only in the [scope](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction) of the loop itself), checks an boolean expression (often with the declared variable of the beginning) and does an operation at the end (often with the decleared variable of the beginning).
 ```js
 for (let i = 0; i < 5; i++) {
@@ -275,9 +276,17 @@ Statement 2 defines the condition for executing the code block. It is executed e
 
 Statement 3 is executed (every time) after the code block has been executed. In this example we add 1 to the variable `i`
 
-The `foreach`-loop is in JavaScript a `for`-loop with the keyword `in` or `of` in it. 
-- `in` loops through the properties of an object.
-- `of` loops through the values of an iterable object.
-```js
 
+The `foreach`-loop is in JavaScript a `for`-loop with the keyword `in` or `of` in it. 
+- `in` loops through the properties of an [**object**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction).
+- `of` loops through the values of an iterable object (like an array).
+```js
+let person = {fname:"John", lname:"Doe", age:25};
+let text = "";
+
+for (let x in person) {
+  text += person[x];
+} 
+
+console.log(text); // expected output: JohnDoe25
 ```
