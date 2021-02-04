@@ -275,4 +275,9 @@ Statement 2 defines the condition for executing the code block. It is executed e
 
 Statement 3 is executed (every time) after the code block has been executed. In this example we add 1 to the variable `i`
 
-The `foreach`-loop is in JavaScript a `for`-loop with the keyword `in` or `of` in it.
+The `foreach`-loop is in JavaScript a `for`-loop with the keyword `in` or `of` in it. 
+- `in` loops through the properties of an object.
+- `of` loops through the values of an iterable object.
+```js
+
+```
