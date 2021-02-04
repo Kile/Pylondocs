@@ -25,7 +25,7 @@ To say it simple: a class describes an **object** with it's properties in form o
 JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes!
 Additionaly you can easily say, do function 1 `f1()` but don't wait until it's finish, but do in parallele function 2 `f2()`. 
 This is archived with the keyword `async`.
-If you have an asynchronous function, but you need it's return value, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
+If you have an asynchronous function (an `async` function), but you need the value it will return, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
 
 
 // further explanation of TypeScript
@@ -35,7 +35,7 @@ If you have an asynchronous function, but you need it's return value, you have u
 
 
 ## Variables and TypeScripts primitiv types
-A variable in programing is pretty much the same thing like in mathematics. You have e.g. an variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
+A variable in programing is pretty much the same thing like in mathematics. You have e.g. a variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
 
 
 Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other so be carefull! TypeScript on the other hand, has types which you can manage but this is completly **optional**.
