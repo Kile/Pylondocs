@@ -41,27 +41,27 @@ A variable in programing is pretty much the same thing like in mathematics. You 
 Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other or appending to the number 5 the string "hi!" so be carefull! TypeScript on the other hand, has types which you can manage; but this is completly **optional**.
 
 
-To create a variable you first need to **declare it's name**:
-```js
-let x; // declaring a new variable with the name x
-```
-If you are using TypeScript, I would **heavily** encourage you, to **declare it's type** too:
+First step is the **declaration** of the name:
 ```ts
-let x: number; // declaring a new variable with the name x and type number
+//JS
+let x; // variable with name x declared
+
+// TS
+let x: number; // variable with name x declared with type number
 ```
-After the declaration, you can **initialize it with it's first value** (after the initzialization of the first value, it isn't called *initzialization* anymore):
+
+After the declaration, you can **initialize it with it's first value** (*initzialization* = setting the first value):
 ```js
 x = 5; // initzialzing x with the value 5
 ```
-If you want to read it's value, just write the name of the variable:
+
 ```js
+// If you want to read it's value, just write the name of the variable:
 console.log(x); // expected output: 5
-```
-If you want to change it's value just change it!
-```js
+
+// If you want to change it's value just change it!
 x = 6; // changing the value of x to 6
 ```
-
 
 If you want to do this a bit shorter and write cleaner code, declare and initzialize your variables at the same time:
 ```js
