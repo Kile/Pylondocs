@@ -29,7 +29,7 @@ In some OOP Languages, you have some kind of `Main` class, which has only one in
 To say it simple: a class describes an **object** with it's properties in form of **variables** and **methodes/functions**.
 
 
-(Here is one important thing to know if you use Java/C++/C#: there is no global value for `Dog.name` here, because you don't have a "main instance" of `Dog`. If you want that all instances of `Dog` have the same value for `Dog.age` at all time, you have to make the variable `age` `static`.)
+(An important thing for Java/C++/C# users: there is no global value for `Dog.name` here, because you don't have a "main instance" of `Dog`. If you want that all instances of `Dog` have the same value for `Dog.age` at all time, you have to make the variable `age` `static`.)
 
 
 JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes!
