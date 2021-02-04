@@ -7,6 +7,8 @@
 
 [**Functions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 
+[**If-Statement**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
 [**Loops**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
@@ -218,3 +220,42 @@ f2();
 
 // expected output: 1 2
 ```
+
+## If-Statements
+
+## Loops
+A loop is a structure that repeats a sequence of instructions until a specific condition is met.
+
+The `while`-Loop, takes a boolean expression as input (e.g. `true` or `5 === 5`) and repeats the code, until this expression turns into `false`.
+```js
+let myBool = true;
+let n = 0;
+
+while(myBool) {
+  console.log(n);
+  
+  n = n + 1;
+    
+  if (n === 5) {
+    myBool = false;
+  }
+}
+
+// expected output: 0 1 2 3 4
+```
+
+The `for`-Loop uses a new variable (which is only in the [scope](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction) of the loop itself), checks an boolean expression (often with the declared variable of the beginning) and does an operation at the end (often with the decleared variable of the beginning).
+```js
+for (let i = 0; i < 5; i++) {
+  // code block/main body
+  console.log(i);
+}
+
+// expected output: 0 1 2 3 4
+```
+Statement 1 is executed (one time) before the execution of the code block. Here we declare and initzialize the variable `i` with 0.
+
+Statement 2 defines the condition for executing the code block. It is executed everytime before atemting to do the code block. If it is a `true` expression, the code block will be executed, otherwise it is skipped.
+
+Statement 3 is executed (every time) after the code block has been executed. In this example we add 1 to the variable `i`
+
