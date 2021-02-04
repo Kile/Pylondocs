@@ -11,13 +11,13 @@
 
 - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-Pylon
+[**Pylon**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-[**Key-Value Namespace**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Key-Value Namespace**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-[**Cron**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Cron**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-[**CPU Burst**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**CPU Burst**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 ## JavaScript/TypeScript introduction
 JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages, but does this in a different way then most programming languages. Using classes (objects) is here kinda optional.
