@@ -3,7 +3,7 @@
 
 [**Variables**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
 
-[**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
+[**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
 
 [**Functions**]()
 
