@@ -61,7 +61,6 @@ If you have an asynchronous function (an `async` function), but you need the val
 
 ## Variables
 Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
-Variables have types. If you want to store a number you use an other type when you want to store a word. In JavaScript you don't have to manage the type of your variables, but you will still have errors if you want to multiply two words with each other or appending "Hello world" to the number 5. You still have to be carefull about the types. TypeScript on the other hand, has types which you can manage; but this is completly **optional** and you can use the JavaScript way at all time.
 
 
 First step is the **declaration** of the name. There are three ways in JavaScript/TypeScript
@@ -100,12 +99,14 @@ let x: number = 5;
 ```
 
 ## TypeScript types
+Variables have types. If you want to store a number you use an other type when you want to store a word. In JavaScript you don't have to manage the type of your variables, but you will still have errors if you want to multiply two words with each other or appending "Hello world" to the number 5. You still have to be carefull about the types. TypeScript on the other hand, has types which you can manage; but this is completly **optional** and you can use the JavaScript way at all time.
+
 
 TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug fixing. The types are ([here a more detailed overview over the types](https://www.typescriptlang.org/docs/handbook/basic-types.html)):
 
 **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
 
-**String**: Character**s** including emojis. At the beginning and ending of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
+**String**: Character*s* including emojis. At the beginning and ending of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
 
 **Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
 
