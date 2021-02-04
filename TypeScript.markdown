@@ -106,7 +106,8 @@ let myArray2: number[] = {0, 5, 1, 7};
 **Tuple**: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (bytes have to be calculated like an array, but for each different type)
 
 ```ts
-let myTuple: [string, number] = {"a string", 5}; // the order is important, you can't swap the position of the number and the string!
+let myTuple: [string, number] = {"a string", 5}; // the order is important
+// you can't swap the position of the number and the string!
 ```
 
 **Enum**: Enums helps you, to make your code more human readable. You can use any type (byte depening on the type used)
