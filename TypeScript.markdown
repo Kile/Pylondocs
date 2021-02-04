@@ -222,6 +222,77 @@ f2();
 ```
 
 ## If-Statements
+A `if`-statement takes a boolean expression as input and sees if it is `true` or false. In case it is `true` it executes it's code, else it don't.
+```js
+if (5 > 3) {
+  console.log("1");
+}
+
+// expected output: 1
+
+if (false) {
+  console.log("2");
+}
+
+// no output
+```
+If you want that something happens if an other condition is true or just execute the other thing, you use `else if` or `else`:
+```js
+let x = 5;
+if (5 > x) {
+  // 5 is more than x
+  console.log("1");
+} else if (5 < x) {
+  // 5 is not more than x AND 5 is less then x
+  console.log("2");
+} else {
+  // neither expression was right
+  console.log("3");
+}
+
+// expected output: 3
+```
+A similar thing is a switch. It looks if a variable has the value of an case. If so he executes the code until a `break;` or the `}` is arrived. That means even if the input is 2, if you forget the `break;` it will also execute the case 3 and if you forgot there...:
+```js
+let x = 2;
+switch (x) {
+  case 0:
+    console.log("0");
+    break;
+  ccase 1:
+    console.log("1");
+    break;
+  case 2:
+    console.log("2");
+    break;
+  case 3:
+    console.log("3");
+    break;
+  default:
+    console.log("nothing");
+    break;
+}
+
+// expeted output: 2
+```
+
+If you have more then one argument, you can archive it with multiple `if`s ore with `&&` and `||`:
+```js
+let x = 5;
+if (x > 1 && x != 2) {
+  // x is more than one and not euqal to 2
+  console.log("1");
+}
+
+// expected output: 1
+
+if (x > 1 || x != 5) {
+  // x is more than one, not equal to 5 or both
+  console.log("2");
+}
+
+// expected output: 2
+```
 
 ## Loops
 A loop is a structure that repeats a sequence of instructions until a specific condition is met.
