@@ -51,13 +51,16 @@ A variable in programing is pretty much the same thing like in mathematics. You 
 Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other or appending to the number 5 the string "hi!" so be carefull! TypeScript on the other hand, has types which you can manage; but this is completly **optional**.
 
 
-First step is the **declaration** of the name:
+First step is the **declaration** of the name. There are three ways in JavaScript/TypeScript
 ```ts
 //JavaScript
 let x; // variable with name x declared
+var x; // this is the same as let but has some specialty on the scope (don't use that!)
+const x; // this signifis, that you won't change it's value
 
 // TS
 let x: number; // variable with name x declared with type number
+// var and const are the same as in JS and you can too declare it's type
 ```
 
 After the declaration, you can **initialize it with it's first value** (*initzialization* = setting the first value):
@@ -170,3 +173,6 @@ function sayHello(): void {
 ```
 
 This function don't need any arguments and don't return something either. It is still a valid function.
+
+
+A important thing in JavaScript is the possibility to do things asynchronous.
