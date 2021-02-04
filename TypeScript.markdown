@@ -170,7 +170,7 @@ In this example, we have declared a function called `f` which takes one `number`
 
 Example 2:
 
-```ts
+```js
 function sayHello(): void {
   console.log("Hello world");
 }
@@ -181,7 +181,7 @@ This function don't need any arguments and don't return something either. It is 
 
 A important thing in JavaScript is the possibility to do things asynchronous. Consider the following example: (example 3)
 
-```ts
+```js
 async function f1() {
   console.log(1);
 }
@@ -197,9 +197,9 @@ f2();
 // That means you don't know if the ouput is: 1 2 or 2 1
 ```
 
-If you have an `async` function, but you want, that this time it is called 100% sure first you can do:
+If you have an `async` function, but you want, that this time it is called 100% sure first, you can do:
 
-```ts
+```js
 await f1();
 f2();
 
