@@ -149,7 +149,7 @@ anything = false;
 
 ## Functions
 
-A function is a block of organized, reusable code that is used to perform a single, related action. Normaly you get some **arguments** from the caller, then the function does things and you get finaly it's **return value**.
+A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing. You have already seen various functions like console.log(). Normaly you get some **arguments** from the caller, then the function does things and you get finaly it's **return value**.
 
 ```ts
 function f(x: number): number {
