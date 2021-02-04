@@ -104,7 +104,7 @@ let x: number = 5;
 Variables have types. If you want to store a number you use an other type when you want to store a word. In JavaScript you don't have to manage the type of your variables, but you will still have errors if you want to multiply two words with each other or appending "Hello world" to the number 5. You still have to be carefull about the types. TypeScript on the other hand, has types which you can manage; but this is completly **optional** and you can use the JavaScript way at all time.
 
 
-TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug fixing. The types are ([here a more detailed overview over the types](https://www.typescriptlang.org/docs/handbook/basic-types.html)):
+TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug fixing. The types are ([here a more detailed overview over the types](https://www.typescriptlang.org/docs/handbook/basic-types.html)): (* means it is actually an object)
 
 - **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
 
@@ -112,25 +112,25 @@ TypeScript has 13 primitiv types of variables. Your code will run either way but
 
 - **Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
 
-- **Array**: An array is a list of values from the same type. Every primitiv type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes the type normaly needs * lenght of the array (number of values stored))
+- **Array***: An array is a list of values from the same type. Every primitiv type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes the type normaly needs * lenght of the array (number of values stored))
 
-- **Tuple**: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (bytes have to be calculated like an array, but for each different type)
+- **Tuple***: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (bytes have to be calculated like an array, but for each different type)
 
-- **Enum**: Enums helps you, to make your code more human readable. You can use any type (byte depening on the type used)
+- **Enum***: Enums helps you, to make your code more human readable. You can use any type (byte depening on the type used)
 
-- **Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. `null` is actually an empty object. (0 bytes)
+- **Null***: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
 - **Undefined**: It's pretty much the same as `null`, but not an object. Still `undefined === null` is a false statement (in an if statement (will come later)). (0 bytes)
 
-- **Void**: This means *no type at all*. Commonly used for functions, which don't return anything.
+- **Void***: This means *no type at all*. Commonly used for functions, which don't return anything.
 
-- **Never**: I don't even know what this is exactly lmao. It is used, when you have a function which will never return something and this isn't even `any`. You'll probably don't need that.
+- **Never***: I don't even know what this is exactly lmao. It is used, when you have a function which will never return something and this isn't even `any`. You'll probably don't need that.
 
-- **Any**: Can be any type.
+- **Any***: Can be any type.
 
-- **Unknown**: The type is unknown so like `any`. It is used if you don't know what the type of the variable is.
+- **Unknown***: The type is unknown so like `any`. It is used if you don't know what the type of the variable is.
 
-- **Object**: Objects will be discusst later on.
+- **Object***: Objects will be discusst later on.
 
 ```ts
 let myNumber: number = 5;
