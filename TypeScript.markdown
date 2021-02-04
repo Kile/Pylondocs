@@ -43,7 +43,7 @@ Variables have different possible types. If you want to store a number, you use 
 
 First step is the **declaration** of the name:
 ```ts
-//JS
+//JavaScript
 let x; // variable with name x declared
 
 // TS
@@ -65,11 +65,10 @@ x = 6; // changing the value of x to 6
 ```
 
 If you want to do this a bit shorter and write cleaner code, declare and initzialize your variables at the same time:
-```js
+```ts
 // JavaScript
 let x = 5;
-```
-```ts
+
 // TypeScript
 let x: number = 5;
 ```
