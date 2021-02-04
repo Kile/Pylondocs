@@ -9,6 +9,8 @@
 
 [**Functions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 
+[**Loops**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
 [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
