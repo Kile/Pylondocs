@@ -3,6 +3,10 @@
 
 [**Variables**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
 
+[**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
+
+[**Functions**]()
+
 ## JavaScript/TypeScript introduction
 JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages, but does this in a different way then most programming languages. Using classes (objects) is here kinda optional.
 In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **methodes/functions**.
