@@ -55,11 +55,12 @@ After the declaration, you can **initialize it with it's first value** (*initzia
 x = 5; // initzialzing x with the value 5
 ```
 
+You work with variables this way:
 ```js
-// If you want to read it's value, just write the name of the variable:
+// Reading the value is just typing the name
 console.log(x); // expected output: 5
 
-// If you want to change it's value just change it!
+// Want to change the value? Just change it!
 x = 6; // changing the value of x to 6
 ```
 
