@@ -125,7 +125,7 @@ let aValueFromEnum: Color = Color.Green;
 **Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
 ```ts
-let x: number = null; // valid code, but can say it's an error
+let x: number = null; // valid code
 ```
 
 **Undefined**: It's pretty much the same as `null`. Still `undefined === null` is a false statement (in an if statement (will come later)). (0 bytes)
