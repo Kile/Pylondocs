@@ -193,7 +193,8 @@ function f2() {
 f1();
 f2();
 
-// This code will starting executing f1() while starting f2() too. That means you don't know if the ouput is: 1 2 or 2 1
+// This code will starting executing f1() while starting f2() too.
+// That means you don't know if the ouput is: 1 2 or 2 1
 ```
 
 If you have an `async` function, but you want, that this time it is called 100% sure first you can do:
