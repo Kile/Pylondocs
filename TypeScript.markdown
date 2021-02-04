@@ -226,12 +226,12 @@ f2();
 ## Loops
 A loop is a structure that repeats a sequence of instructions until a specific condition is met.
 
-The `while`-Loop, takes a boolean expression as input (e.g. `true` or `5 === 5`) and repeats the code, until this expression turns into `false`.
+The `while`-Loop, takes a boolean expression as input (e.g. `true` or `5 === 5`) and repeats the code, until this expression turns into `false`. The `do-while`-loop, does the code before checking the expression.
 ```js
 let myBool = true;
 let n = 0;
 
-while(myBool) {
+while (myBool) {
   console.log(n);
   
   n = n + 1;
@@ -240,6 +240,22 @@ while(myBool) {
     myBool = false;
   }
 }
+
+// expected output: 0 1 2 3 4
+
+myBool = true;
+n = 0;
+
+do {
+  console.log(n);
+  
+  n = n + 1;
+    
+  if (n === 5) {
+    myBool = false;
+  }
+} while (myBool);
+
 
 // expected output: 0 1 2 3 4
 ```
@@ -259,3 +275,4 @@ Statement 2 defines the condition for executing the code block. It is executed e
 
 Statement 3 is executed (every time) after the code block has been executed. In this example we add 1 to the variable `i`
 
+The `foreach`-loop is in JavaScript a `for`-loop with the keyword `in` or `of` in it.
