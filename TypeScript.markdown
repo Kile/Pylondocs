@@ -149,7 +149,7 @@ anything = false;
 
 ## Functions
 
-Functions are the things, that do the stuff you want. Normaly you get some **arguments** from the caller, the function does things, and then it **returns some values**.
+A function is a block of organized, reusable code that is used to perform a single, related action. Normaly you get some **arguments** from the caller, then the function does things and you get finaly it's **return value**.
 
 ```ts
 function f(x: number): number {
