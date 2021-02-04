@@ -175,4 +175,28 @@ function sayHello(): void {
 This function don't need any arguments and don't return something either. It is still a valid function.
 
 
-A important thing in JavaScript is the possibility to do things asynchronous.
+A important thing in JavaScript is the possibility to do things asynchronous. Consider the following example:
+
+```ts
+async function f1() {
+  console.log(1);
+}
+
+function f2() {
+  console.log(2);
+}
+
+f1();
+f2();
+
+// This code will starting executing f1() while starting f2() too. That means you don't know if the ouput is: 1 2 or 2 1
+```
+
+If you have an `async` function, but you want, that this time it is called 100% sure first you can do:
+
+```ts
+await f1();
+f2();
+
+// expected output: 1 2
+```
