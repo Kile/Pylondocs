@@ -299,3 +299,10 @@ console.log(text); // expected output: PeterJackAlice
 
 ## Objects
 Pretty much everything is an object. Even arrays and functions. Only `string`, `number`, `boolean` and `undefined` are not objects!
+
+## Shorthands
+? :
+!null
+() => {}
+() =>
+.then()
