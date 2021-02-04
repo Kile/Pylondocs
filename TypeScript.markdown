@@ -38,7 +38,7 @@ If you have an asynchronous function (an `async` function), but you need the val
 A variable in programing is pretty much the same thing like in mathematics. You have e.g. a variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
 
 
-Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other so be carefull! TypeScript on the other hand, has types which you can manage but this is completly **optional**.
+Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other or appending to the number 5 the string "hi!" so be carefull! TypeScript on the other hand, has types which you can manage; but this is completly **optional**.
 
 
 To create a variable you first need to **declare it's name**:
@@ -49,7 +49,7 @@ If you are using TypeScript, I would **heavily** encourage you, to **declare it'
 ```ts
 let x: number; // declaring a new variable with the name x and type number
 ```
-After the declaration, you can **initialize it with it's first value** (after the initzialization of the first value, it isn't called initzialization anymore):
+After the declaration, you can **initialize it with it's first value** (after the initzialization of the first value, it isn't called *initzialization* anymore):
 ```js
 x = 5; // initzialzing x with the value 5
 ```
