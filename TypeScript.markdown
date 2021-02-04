@@ -76,12 +76,6 @@ let x: number = 5;
 
 TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug finding. The types are (https://www.typescriptlang.org/docs/handbook/basic-types.html here a more detailed overview):
 
-**Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
-
-```ts
-let myBool: boolean = true;
-```
-
 **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
 
 ```ts
@@ -92,6 +86,12 @@ let myNumber: number = 5;
 
 ```ts
 let myString: string = "Hello world!";
+```
+
+**Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
+
+```ts
+let myBool: boolean = true;
 ```
 
 **Array**: An array is a list of values from the same type. Every primitiv type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes the type normaly needs * lenght of the array (number of values stored))
@@ -120,6 +120,8 @@ enum Color {
 let aValueFromEnum: Color = Color.Green;
 ```
 
+**Object**: an object is 
+
 **Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
 ```ts
@@ -135,11 +137,15 @@ console.log(x); // expected output: undefined
 x = undefined; // still valid
 ```
 
-**Void**:
+**Void**: This means *no type at all*. Commonly used for functions, which don't return anything.
 
-**Object**:
+```ts
+function myFunction(): void {} // this function returns nothing, so not even null or undefined (but if you console.log() this, it will say undefined)
+```
+
+**Never**: I don't even know what this is exactly lmao. It is used, when you have a function which will never return something and this isn't even `any`. You'll probably don't need that.
 
 **Any**: Can be any type.
 
-and Unknown and Never
+**Unknown**: The type is unknown so like `any`.
 
