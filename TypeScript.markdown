@@ -53,7 +53,7 @@ To say it simple: a class describes an **object** with it's properties in form o
 (An important thing for Java/C++/C# users: there is no global value for `Dog.name` here, because you don't have a "main instance" of `Dog`. If you want that all instances of `Dog` have the same value for `Dog.age` at all time, you have to make the variable `age` `static`.)
 
 
-JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes!
+JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes! In fact you don't have classes, you have **objects**.
 Additionaly you can easily say, do function 1 `f1()` but don't wait until it's finish, but do in parallele function 2 `f2()`. 
 This is archived with the keyword `async`.
 If you have an asynchronous function (an `async` function), but you need the value it will return, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
@@ -115,9 +115,9 @@ TypeScript has 13 primitiv types of variables. Your code will run either way but
 
 **Enum**: Enums helps you, to make your code more human readable. You can use any type (byte depening on the type used)
 
-**Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
+**Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. `null` is actually an empty object. (0 bytes)
 
-**Undefined**: It's pretty much the same as `null`. Still `undefined === null` is a false statement (in an if statement (will come later)). (0 bytes)
+**Undefined**: It's pretty much the same as `null`, but not an object. Still `undefined === null` is a false statement (in an if statement (will come later)). (0 bytes)
 
 **Void**: This means *no type at all*. Commonly used for functions, which don't return anything.
 
