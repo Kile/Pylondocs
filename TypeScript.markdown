@@ -3,10 +3,11 @@ JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages
 In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **methodes/functions**.
 ```cs
 // C# (not JavsScript/TypeScript)
-class MyClass { // a class
-  int x; // a variable
+class Dog { // a class
+  string Name; // a varibale
+  int Age; // a variable
   
-  void MyFunction () { // a function
+  void Bark () { // a function
     // code
   }
 }
