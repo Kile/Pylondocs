@@ -84,7 +84,7 @@ let x: number = 5;
 
 ## TypeScript types
 
-TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug fixing. The types are (https://www.typescriptlang.org/docs/handbook/basic-types.html here a more detailed overview):
+TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug fixing. The types are ([here a more detailed overview over the types](https://www.typescriptlang.org/docs/handbook/basic-types.html)):
 
 **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
 
