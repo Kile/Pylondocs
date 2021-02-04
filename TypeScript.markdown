@@ -1,6 +1,8 @@
 ## Table of contents
 [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
+[**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
 [**Variables**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
 
 - [**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
@@ -10,6 +12,8 @@
 [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
+[**Scope**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 [**Pylon**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
@@ -51,13 +55,6 @@ JavaScript/TypeScript is there a bit different. You can have functions **outside
 Additionaly you can easily say, do function 1 `f1()` but don't wait until it's finish, but do in parallele function 2 `f2()`. 
 This is archived with the keyword `async`.
 If you have an asynchronous function (an `async` function), but you need the value it will return, you have use the keyword `await` to signify that the function should be executed first and after it's completly finished, continue.
-
-
-// further explanation of TypeScript
-
-
-// importance of clean code and doing the conventions
-
 
 ## Variables
 Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
@@ -165,7 +162,6 @@ anything = false;
 ```
 
 ## Functions
-
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing. You have already seen various functions like console.log(). Normaly you get some **arguments/parameters** from the caller, then the function does things and you get finaly it's **return value**.
 
 Example 1:
