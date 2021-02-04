@@ -74,29 +74,72 @@ let x: number = 5;
 ```
 
 
-TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug finding. The types are:
+TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug finding. The types are (https://www.typescriptlang.org/docs/handbook/basic-types.html here a more detailed overview):
 
 **Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
 
+```ts
+let myBool: boolean = true;
+```
+
 **Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
+
+```ts
+let myNumber: number = 5;
+```
 
 **String**: Character**s** including emojis. At the beginning and ending of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
 
-**Array**: An array is a list of values. You can have e.g. the array `{0, 5, 1, 7}` which has values from type `Number` in it.
+```ts
+let myString: string = "Hello world!";
+```
 
-**Tuple**: 
+**Array**: An array is a list of values from the same type. Every primitiv type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes the type normaly needs * lenght of the array (number of values stored))
 
-**Enum**:
+```
+let myArray: Array<number> = {0, 5, 1, 7};
+// the same thing:
+let myArray2: number[] = {0, 5, 1, 7};
+```
 
-**Any**:
+**Tuple**: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (bytes have to be calculated like an array, but for each different type)
 
-**Null**:
+```ts
+let myTuple: [string, number] = {"a string", 5}; // the order is important, you can't swap the position of the number and the string!
+```
 
-**Undefined**:
+**Enum**: The enum helps you, to make your code more human readable. You can use any type (byte depening on the type used)
+
+```ts
+enum Color {
+  Red,
+  Green,
+  Blue
+}
+
+let aValueFromEnum: Color = Color.Green;
+```
+
+**Null**: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
+
+```ts
+let x: number = null; // valid code, but can say it's an error
+```
+
+**Undefined**: It's pretty much the same as `null`. Still `undefined === null` is a false statement (in an if statement (will come later)). (0 bytes)
+
+```ts
+let x: number;
+console.log(x); // expected output: undefined
+
+x = undefined; // still valid
+```
 
 **Void**:
 
 **Object**:
+
+**Any**: Can be any type.
 
 and Unknown and Never
 
