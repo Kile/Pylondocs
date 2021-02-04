@@ -3,13 +3,13 @@
 
 [**Variables**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
 
-[**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
+- [**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
 
 [**Functions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 
 [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-[**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 Pylon
 
