@@ -154,6 +154,8 @@ anything = false;
 
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing. You have already seen various functions like console.log(). Normaly you get some **arguments/parameters** from the caller, then the function does things and you get finaly it's **return value**.
 
+Example 1:
+
 ```ts
 function f(x: number): number {
   return x * 2;
@@ -166,6 +168,8 @@ console.log(y); // expected output: 10
 
 In this example, we have declared a function called `f` which takes one `number` as argument and returns one `number`. As we say: `y = f(5)`, the function `f()` is executed and it calculated `x` (in this case 5) multiplied with two and returned this value. Y took we **return value** and used it as it's value.
 
+Example 2:
+
 ```ts
 function sayHello(): void {
   console.log("Hello world");
@@ -175,7 +179,7 @@ function sayHello(): void {
 This function don't need any arguments and don't return something either. It is still a valid function.
 
 
-A important thing in JavaScript is the possibility to do things asynchronous. Consider the following example:
+A important thing in JavaScript is the possibility to do things asynchronous. Consider the following example: (example 3)
 
 ```ts
 async function f1() {
