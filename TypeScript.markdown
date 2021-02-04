@@ -155,3 +155,19 @@ anything = false;
 **Unknown**: The type is unknown so like `any`. It is used if you don't know what the type of the variable is.
 
 **Object**: Objects will be discusst later on.
+
+## Functions
+
+Functions are the things, that do the stuff you want. Normaly you get some **arguments** from the caller, the function does things, and then it **returns some values**.
+
+```ts
+function f(x: number): number {
+  return x * 2;
+}
+
+let y: number = f(5);
+
+console.log(y); // expected output: 10
+```
+
+In this example, we have declared a function called `f` which takes one `number` as argument and returns one `number`. As the say: `y = f(5)`, the function `f()` is executed. The function calculated `x` (in this case 5) times two and returned this value. Y took this value and used it as it's value.
