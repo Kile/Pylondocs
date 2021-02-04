@@ -60,10 +60,8 @@ If you have an asynchronous function (an `async` function), but you need the val
 
 
 ## Variables
-A variable in programing is pretty much the same thing like in mathematics. You have e.g. a variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
-
-
-Variables have different possible types. If you want to store a number, you use an other type when you want to store a word. In JavaScript you don't have to manage the type of variables! But you still have errors if you want to multiply two words with each other or appending to the number 5 the string "hi!" so be carefull! TypeScript on the other hand, has types which you can manage; but this is completly **optional**.
+Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
+Variables have types. If you want to store a number you use an other type when you want to store a word. In JavaScript you don't have to manage the type of your variables, but you will still have errors if you want to multiply two words with each other or appending "Hello world" to the number 5. You still have to be carefull about the types. TypeScript on the other hand, has types which you can manage; but this is completly **optional** and you can use the JavaScript way at all time.
 
 
 First step is the **declaration** of the name. There are three ways in JavaScript/TypeScript
