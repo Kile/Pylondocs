@@ -34,7 +34,7 @@ If you have an asynchronous function (an `async` function), but you need the val
 // importance of clean code and doing the conventions
 
 
-## Variables and TypeScripts primitiv types
+## Variables and TypeScripts variables
 A variable in programing is pretty much the same thing like in mathematics. You have e.g. a variable named `x` and you can use `x` to perform different actions with it. Unlike mathematics, you know the value of `x` at all points in time.
 
 
@@ -73,6 +73,7 @@ let x = 5;
 let x: number = 5;
 ```
 
+## TypeScript types
 
 TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug finding. The types are (https://www.typescriptlang.org/docs/handbook/basic-types.html here a more detailed overview):
 
