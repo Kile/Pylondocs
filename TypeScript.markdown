@@ -1,8 +1,6 @@
 ## Table of contents
 [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
-[**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
-
 [**Variables**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
 
 - [**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
@@ -14,6 +12,8 @@
 [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
+[**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 [**Scope**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
