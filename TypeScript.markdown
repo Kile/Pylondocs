@@ -74,13 +74,13 @@ let x: number = 5;
 ```
 
 
-TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better do declare the type of variables for things like readability. The types are:
+TypeScript has 13 primitiv types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug finding. The types are:
 
-**Boolean**: True/False
+**Boolean**: True/False (this needs a whole byte despites that one bit would be enough)
 
-**Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number)
+**Number**: Any number, including negativs and point numbers (in other programing languages often called: floating point number, takes 2 bytes)
 
-**String**: Character**s** including emojis. Strings are written in ""!
+**String**: Character**s** including emojis. At the beginning and ending of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
 
 **Array**: An array is a list of values. You can have e.g. the array `{0, 5, 1, 7}` which has values from type `Number` in it.
 
