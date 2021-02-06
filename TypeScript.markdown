@@ -352,7 +352,7 @@ The `foreach`-loop is in JavaScript a `for`-loop with the keyword `in` or `of` i
 - `in` loops through the properties of an [**object**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction).
 - `of` loops through the values of an iterable object (like an array).
 ```js
-let person = {fname: "John", lname: "Doe", age: 32};
+let person = {name: "John", name: "Doe", age: 32};
 let text = "";
 for (let x in person) {
   text += person[x];
