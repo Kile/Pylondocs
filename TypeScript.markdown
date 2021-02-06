@@ -222,7 +222,7 @@ f2();
 ```
 
 ## If-Statements
-A `if`-statement takes a boolean expression as input and sees if it is `true` or false. In case it is `true` it executes it's code, else it don't.
+A `if`-statement checks if the expression is `true` or `false`. In case the expression is `true`, it executes it's code, else it don't.
 ```js
 if (5 > 3) {
   console.log("1");
