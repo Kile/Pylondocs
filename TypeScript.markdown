@@ -62,7 +62,7 @@ let x = 5;
 let x: number = 5;
 ```
 
-## TypeScript types
+# TypeScript types
 Variables have types. Storing a number requiers an other type then storing a sentence.In JavaScript, you don't have to manage the type of your variables since it does it for your automatically, but you will still have errors if you want to multiply two words with each other or appending to "Hello world" the number 5. You still have to be careful about the types! TypeScript, on the other hand, has types which you can manage; but this is completely **optional** and you can use the JavaScript way at all time.
 
 
