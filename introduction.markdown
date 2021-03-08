@@ -73,9 +73,9 @@ Time to analize what we do there: first, the method we use to look for events is
 
 Since we don't want Pylon to respond to *every* message we build in an **if check**.You will use **if checks** a lot in any programming language you coma across. They work as follows:
 ```ts
-if (something){
+if (something) {
   do another thing
-  }
+}
 ```
 In this case you check if the **message content** `==` (that means equals exactly) the **string** (text) 'Hello'. If that is the case we do what we did before with the command, let Pylon **reply** with 'Hello!'. **REMEMBER** that this is case sensitive, so Pylon won't trigger uf you say 'hElLo'.
 
