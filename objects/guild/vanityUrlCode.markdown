@@ -8,3 +8,4 @@ commands.raw('vanity', async function (message) {
   );
   // The ?? lets Pylon reply an other thing, in this case, guild.vanityUrlCode doesn't exist (that it is null)
 });
+```
