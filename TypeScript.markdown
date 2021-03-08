@@ -431,7 +431,7 @@ else
 const y: number = 5;
 let x: number = (y <= 5) ? y : y - 1;
 ```
-If you don't know why there are functions without name look [*here*]()
+If you don't know why there are functions without name look [here](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 ```ts
 function (text: string) {
   console.log(text);
@@ -442,10 +442,26 @@ function (text: string) {
 (text: string) => {
   console.log(text);
 }
-```
-```ts
-// () =>
-// .then()
+
+// which is the same as (works only if only one line is used afterwards)
+
+(text: string) => console.log(text)
+
+// which is the same as (works only if only one argument is needed)
+
+text => console.log(text)
+
+// and
+
+function myFunc(text: string): void {
+  console.log(text);
+}
+
+// is the same as
+
+const myFunc = (text: string) => {
+  console.log(text);
+}
 ```
 
 # Pylon
