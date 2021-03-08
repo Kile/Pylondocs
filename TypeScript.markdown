@@ -1,4 +1,4 @@
-## JavaScript/TypeScript introduction
+# JavaScript/TypeScript introduction
 JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages, but does this in a different way then most programming languages. In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **methodes/functions**.
 ```cs
 // C# (not JavsScript/TypeScript)
@@ -26,7 +26,7 @@ Additionally, you can easily say, do function 1 `f1()` but don't wait until it's
 This is archived with the keyword `async`.
 If you have an asynchronous function (an `async` function), but you need the value it will return, you have to use the keyword `await` to signify that the function should be executed first and after it's completely finished, continue.
 
-## Variables
+# Variables
 Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
 
 
@@ -94,32 +94,42 @@ TypeScript has 13 primitive types. Your code will run either way but it is **way
 
 - **Object***: Objects will be discussed later on.
 
+
+Examples for all types:
 ```ts
 let myNumber: number = 5;
 let myString: string = "Hello world!";
 let myBool: boolean = true;
+
 let myArray: Array<number> = {0, 5, 1, 7};
 // the same thing:
 let myArray2: number[] = {0, 5, 1, 7};
-let myTuple: [string, number] = {"a string", 5}; // the order is important
-// you can't swap the position of the number and the string!
+let myTuple: [string, number] = {"a string", 5}; // the order of the values is important!
+  // you can't swap the position of the number and the string!
+  
 enum Color {
-  Red,
-  Green,
-  Blue
+  Red = "RED",
+  Green = "GREEN",
+  Blue = "BLUE"
 }
 let aValueFromEnum: Color = Color.Green;
+
 let x: number = null; // valid code
+
 let x: number;
 console.log(x); // expected output: undefined
 x = undefined; // still valid
+
 function myFunction(): void {} // this function returns nothing, so not even null or undefined (but if you console.log() this, it will say undefined)
+
 let anything: any = 5;
 anything = "Hello!";
 anything = false;
 ```
 
-## Functions
+# Interfaces
+
+# Functions
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing. You have already seen various functions like console.log(). Normally you get some **arguments/parameters** from the caller, then the function does things and you get finally its **return value**.
 
 Example 1:
