@@ -446,9 +446,9 @@ const myFunc = (text: string) => {
 
 # Commands
 
-# KV-Namespaces
-
 # Crons
+
+# KV-Namespaces
 
 # CPU Bursts
 
