@@ -63,34 +63,34 @@ let x: number = 5;
 ```
 
 ## TypeScript types
-Variables have types. If you want to store a number you use another type when you want to store a word. In JavaScript, you don't have to manage the type of your variables, but you will still have errors if you want to multiply two words with each other or appending "Hello world" to the number 5. You still have to be careful about the types. TypeScript, on the other hand, has types which you can manage; but this is completely **optional** and you can use the JavaScript way at all time.
+Variables have types. Storing a number requiers an other type then storing a sentence.In JavaScript, you don't have to manage the type of your variables since it does it for your automatically, but you will still have errors if you want to multiply two words with each other or appending to "Hello world" the number 5. You still have to be careful about the types! TypeScript, on the other hand, has types which you can manage; but this is completely **optional** and you can use the JavaScript way at all time.
 
 
-TypeScript has 13 primitive types of variables. Your code will run either way but it is **way** better to declare the type of variables for things like readability and bug fixing. The types are ([here a more detailed overview over the types](https://www.typescriptlang.org/docs/handbook/basic-types.html)): (* means it is actually an object)
+TypeScript has 13 primitive types. Your code will run either way but it is **way** better to declare the type of variables because of readability and later bug fixing. The types are ([here a more detailed overview over the types](https://www.typescriptlang.org/docs/handbook/basic-types.html)): (* means it is actually an object)
 
 - **Number**: Any number, including negatives and point numbers (in other programming languages often called: floating-point number, takes 2 bytes)
 
 - **String**: Character(s) including emojis. At the beginning and end of a String, you need to write *"*! (Takes 2 Bytes per character + some bytes at the start)
 
-- **Boolean**: True/False (this needs a whole byte despite that one bit would be enough)
+- **Boolean**: True/False (This needs a whole byte despite that one bit would be enough)
 
-- **Array***: An array is a list of values from the same type. Every primitive type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes the type normally needs * length of the array (number of values stored))
+- **Array***: An array is a list of values from the same type. Every primitive type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes needed from the type times the length of the array (number of values stored))
 
-- **Tuple***: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (bytes have to be calculated like an array but for each different type)
+- **Tuple***: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (Bytes depending on the different types used but calculated like an array)
 
-- **Enum***: Enums helps you, to make your code more human-readable. You can use any type (byte depending on the type used)
+- **Enum***: Enums helps you, to make your code more human-readable. You can use any type (Byte depending on the type used)
 
-- **Null***: This means, the variable hasn't stored anything in it (that means: yes every type can have `null` as a value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
+- **Null***: This means, the variable hasn't stored anything in it (That means: yes every type can have `null` as a value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
 - **Undefined**: It's pretty much the same as `null`, but not an object. Still `undefined === null` is a false statement. (0 bytes)
 
 - **Void***: This means *no type at all*. Commonly used for functions, which don't return anything.
 
-- **Never***: This represents the type of values that never occur
+- **Never***: This represents the type of values that never occur.
 
-- **Any***: Can be any type.
+- **Any***: Variable or function can be/return any type.
 
-- **Unknown***: The type is unknown so like `any`. It is used if you don't know what the type of the variable is.
+- **Unknown***: The type is unknown, so it is like `any`. It is used if you don't know what the type of the variable is e.g. functions which return values from an external API.
 
 - **Object***: Objects will be discussed later on.
 
