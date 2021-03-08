@@ -9,9 +9,9 @@ commands.raw('banner', async function (message) {
 
   // CAREFUL!! guild.banner is not the image! It just gives you the ID or smth
 
-  //Checks if the guild has a banner
+  // Checks if the guild has a banner
   if (banner !== null) {
-    //This is how you get the Banner image Url you can use
+    // This is how you get the Banner image Url you can use
     const bannerUrl = guild.getBannerUrl();
 
     await message.reply(
