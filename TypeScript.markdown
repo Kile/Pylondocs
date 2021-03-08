@@ -11,7 +11,7 @@ The first step is the **declaration** of a variable with it's name. There are th
 let x; // variable with name x declared
 var x; // this is the same as let but has some specialty on the scope (don't use that!)
 const x; // this signifies, that you won't change its value. 
-         // (You have to initialize const variables on the same line you define them! How you do that later.)
+         // (!You have to initialize const variables on the same line you define them!)
 // TS
 let x: number; // variable with name x declared with type number
 // var and const are the same as in JS and you can too declare it's type
