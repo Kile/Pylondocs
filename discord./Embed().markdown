@@ -1,5 +1,5 @@
 ```ts
-commands.raw('invite', async (message) => {
+commands.raw('invite', async function (message) {
   let embed = new discord.Embed();
   embed.setTitle('Invite link');
   embed.setDescription(
