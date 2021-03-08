@@ -16,6 +16,7 @@ Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
 - [**User**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./getUser().markdown)
 
+
 [**TypeScript/Pylon Tutorial**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown)
 
 - [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
@@ -24,33 +25,33 @@ Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
   - [**Types**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#typescript-types)
 
+  - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#interfaces)
+
 - [**Functions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#functions)
 
-- [**If-Statement**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#if-statements)
+- [**If-Statements**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#if-statements)
 
 - [**Loops**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#loops)
 
-- [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Objects**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#objects)
 
-  - [**Interfaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Scope**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#scope)
 
-- [**Scope**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#conventions)
 
-- [**Conventions**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Shorthands**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#shorthands)
 
-- [**Shorthands**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+- [**Pylon**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#pylon)
 
-- [**Pylon**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+  - [**Event Handlers**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#event-handlers)
 
-  - [**Event Handler**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+  - [**Commands**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#commands)
 
-  - [**Commands**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+  - [**Key-Value Namespaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#kv-namespaces)
 
-  - [**Key-Value Namespace**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+  - [**Crons**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#crons)
 
-  - [**Cron**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
-
-  - [**CPU Burst**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+  - [**CPU Bursts**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#cpu-bursts)
 
 ## Note
 If you see something I did wrong, a typo, a formal mistake or actual errors of me understandig Pylon's SDK or TypeScript please feel free to contribute with a Pull request
