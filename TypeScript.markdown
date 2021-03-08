@@ -74,9 +74,9 @@ TypeScript has 13 primitive types. Your code will run either way but it is **way
 
 - **Boolean**: True/False (This needs a whole byte despite that one bit would be enough)
 
-- **Array***: An array is a list of values from the same type. Every primitive type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes needed from the type times the length of the array (number of values stored))
+- ***Array**: An array is a list of values from the same type. Every primitive type can be stored in an array (yes even arrays). E.g. the array `{0, 5, 1, 7}`, has values from type `Number` stored. (Bytes depending on the type but you can say: bytes needed from the type times the length of the array (number of values stored))
 
-- **Tuple***: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (Bytes depending on the different types used but calculated like an array)
+- ***Tuple**: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (Bytes depending on the different types used but calculated like an array)
 
 - **Enum***: Enums helps you, to make your code more human-readable. You can use any type (Byte depending on the type used)
 
