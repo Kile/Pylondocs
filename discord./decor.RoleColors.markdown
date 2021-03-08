@@ -11,3 +11,4 @@ Green: ${green}`);
 
   // Honestly I don't know what this would be useful for, but now you know it exists
 });
+```
