@@ -10,7 +10,8 @@ The first step is the **declaration** of a variable with it's name. There are th
 //JavaScript
 let x; // variable with name x declared
 var x; // this is the same as let but has some specialty on the scope (don't use that!)
-const x; // this signifies, that you won't change its value. (You have to initialize it on the same line! How you do that later.)
+const x; // this signifies, that you won't change its value. 
+         // (You have to initialize const variables on the same line you define them! How you do that later.)
 // TS
 let x: number; // variable with name x declared with type number
 // var and const are the same as in JS and you can too declare it's type
