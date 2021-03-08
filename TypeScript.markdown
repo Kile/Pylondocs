@@ -178,7 +178,7 @@ f2();
 // expected output: 1 2
 ```
 
-## If-Statements
+# If-Statements
 A `if`-statement checks if the expression is `true` or `false`. In case the expression is `true`, it executes it's code, else it don't.
 ```js
 if (5 > 3) {
@@ -243,7 +243,7 @@ if (x > 1 || x != 5) {
 // expected output: 2
 ```
 
-## Loops
+# Loops
 A loop is a structure that repeats a sequence of instructions until a specific condition is met.
 
 The `while`-Loop, takes a boolean expression as input (e.g. `true` or `5 === 5`) and repeats the code, until this expression turns into `false`. The `do-while`-loop, does the code before checking the expression.
@@ -309,12 +309,28 @@ console.log(text); // expected output: PeterJackAlice
 ```
 
 
-## Objects
+# Objects
 Pretty much everything is an object. Even arrays and functions. Only `string`, `number`, `boolean` and `undefined` are not objects!
 
-## Shorthands
+# Scope
+
+# Conventions
+
+# Shorthands
 ? :
 !null
 () => {}
 () =>
 .then()
+
+# Pylon
+
+# Event Handlers
+
+# Commands
+
+# KV-Namespaces
+
+# Crons
+
+# CPU Bursts
