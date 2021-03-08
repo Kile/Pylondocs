@@ -1,7 +1,7 @@
 ```ts
-let channel = await discord.getChannel('THE_CHANNEL_ID_OF_THE_CHANNEL_WITH_THE_MESSAGE')
+let channel = await discord.getChannel('THE_CHANNEL_ID_OF_THE_CHANNEL_WITH_THE_MESSAGE');
 
-let message = await channel.getMessage('THE_ID_OF_THE_MESSAGE')
+let message = await channel.getMessage('THE_ID_OF_THE_MESSAGE');
 
 // Remember to use await
 // In commands and some events you already define message. Example: async(message)=>
