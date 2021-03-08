@@ -47,9 +47,9 @@ Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
   - [**Commands**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#commands)
 
-  - [**Key-Value Namespaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#kv-namespaces)
-
   - [**Crons**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#crons)
+
+  - [**Key-Value Namespaces**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#kv-namespaces)
 
   - [**CPU Bursts**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#cpu-bursts)
 
