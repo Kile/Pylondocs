@@ -14,6 +14,8 @@ Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
 - [**Guild**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./getGuild().markdown)
 
+- [**User**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./getUser().markdown)
+
 [**TypeScript/Pylon Tutorial**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown)
 
 - [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
