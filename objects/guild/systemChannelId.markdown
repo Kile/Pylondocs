@@ -19,3 +19,4 @@ commands.raw('joinchannel', async function (message) {
   );
   // Giving some info about the joinchannel
 });
+```
