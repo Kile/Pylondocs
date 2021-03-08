@@ -6,9 +6,9 @@ This page will give you a first overview of Pylon SDK and typscript for absolute
 
 First the basics:
 
-  -No code will work outside an [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions) (exceptions but I will come to that later)
+  - No code will work outside an [**async function**](https://github.com/Kile/Pylondocs/blob/main/introduction.markdown#async-functions) (exceptions but I will come to that later)
   
-  -To save and publish a script you need to click on **script and publish**. If this action is not successfully made it deletes your last changes
+  - To save and publish a script you need to click on **script and publish**. If this action is not successfully made it deletes your last changes
   
 ## async functions
   
