@@ -28,3 +28,4 @@ commands.raw('emojis', async function (message) {
   // If you however use \ before it, you tell discord to ignore that. This is a useful
   // fact for many other things where this happens :3
 });
+```
