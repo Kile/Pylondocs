@@ -30,20 +30,20 @@ If you have an asynchronous function (an `async` function), but you need the val
 Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
 
 
-The first step is the **declaration** of the name. There are three ways in JavaScript/TypeScript
+The first step is the **declaration** of a variable with it's name. There are three ways in JavaScript/TypeScript
 ```ts
 //JavaScript
 let x; // variable with name x declared
 var x; // this is the same as let but has some specialty on the scope (don't use that!)
-const x; // this signifies, that you won't change its value
+const x; // this signifies, that you won't change its value. (You have to initzialize it on the same line! How you do that later.)
 // TS
 let x: number; // variable with name x declared with type number
 // var and const are the same as in JS and you can too declare it's type
 ```
 
-After the declaration, you can **initialize it with it's first value** (*initzialization* = setting the first value):
+After the declaration, you can **initialize it with it's first value** (*initialization* = setting the first value):
 ```js
-x = 5; // initzialzing x with the value 5
+x = 5; // initializing x with the value 5
 ```
 
 You work with variables this way:
