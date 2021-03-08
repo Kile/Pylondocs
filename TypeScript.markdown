@@ -1,30 +1,5 @@
 # JavaScript/TypeScript introduction
-JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages, but does this in a different way then most programming languages. In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **methodes/functions**.
-```cs
-// C# (not JavsScript/TypeScript)
-class Dog { // a class
-  string name; // a varibale
-  int age; // a variable
-  
-  void Bark () { // a function
-    // code
-  }
-}
-```
-You have here a class named `Dog`.
-`Dog` itself has to be initialized to work. You can think of it as the hardware of a computer. You can buy many computers and they all will have the same parts: a CPU, a GPU, RAM, some drives... but these computers will probably have different CPUs, different amounts of memory... But they all have the same functionality and use the same parts (just with different values).
-Back to programming, all instances of `Dog` will have values for `name` and `age`, but the values themselves may differ from one instance to another. All instances of `Dog` have a function called `Bark()` too. You can execute this part of the code (the function `Bark()`) whenever you want, but if you use `age` or `name` inside the function, it will only use the local values of `age` and `name` (the values of `age` and `name` set in **this instance** of `Dog`).
-In some OOP languages, you have some kind of `Main` class, which has only one instance. So you start from it, and create new instances of other classes in it, and use the variables and functions from these instances to complete your goal.
-To say it simple: a class describes an **object** with it's properties in form of **variables** and **methods/functions**.
-
-
-(An important thing for Java/C++/C# users: there is no global value for `Dog.name` here because you don't have a "main instance" of `Dog`. If you want that all instances of `Dog` have the same value for `Dog.age` at all times, you have to make the variable `age` `static`.)
-
-
-JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes! In fact, you don't have classes, you have **objects**.
-Additionally, you can easily say, do function 1 `f1()` but don't wait until it's finished, but do in parallel function 2 `f2()`. 
-This is archived with the keyword `async`.
-If you have an asynchronous function (an `async` function), but you need the value it will return, you have to use the keyword `await` to signify that the function should be executed first and after it's completely finished, continue.
+TODO
 
 # Variables
 Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
@@ -78,19 +53,19 @@ TypeScript has 13 primitive types. Your code will run either way but it is **way
 
 - ***Tuple**: Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same. (Bytes depending on the different types used but calculated like an array)
 
-- **Enum***: Enums helps you, to make your code more human-readable. You can use any type (Byte depending on the type used)
+- ***Enum**: Enums helps you, to make your code more human-readable. You can use any type (Byte depending on the type used)
 
-- **Null***: This means, the variable hasn't stored anything in it (That means: yes every type can have `null` as a value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
+- ***Null**: This means, the variable hasn't stored anything in it (That means: yes every type can have `null` as a value). The value is not "" (an empty string) or 0 (the number 0), the value is `null`. (0 bytes)
 
 - **Undefined**: It's pretty much the same as `null`, but not an object. Still `undefined === null` is a false statement. (0 bytes)
 
-- **Void***: This means *no type at all*. Commonly used for functions, which don't return anything.
+- ***Void**: This means *no type at all*. Commonly used for functions, which don't return anything.
 
-- **Never***: This represents the type of values that never occur.
+- ***Never**: This represents the type of values that never occur.
 
-- **Any***: Variable or function can be/return any type.
+- ***Any**: Variable or function can be/return any type.
 
-- **Unknown***: The type is unknown, so it is like `any`. It is used if you don't know what the type of the variable is e.g. functions which return values from an external API.
+- ***Unknown**: The type is unknown, so it is like `any`. It is used if you don't know what the type of the variable is e.g. functions which return values from an external API.
 
 - **Object***: Objects will be discussed later on.
 
@@ -475,3 +450,31 @@ const myFunc = (text: string) => {
 # Crons
 
 # CPU Bursts
+
+# Old Introduction
+JavaScript/TypeScript (JS/TS) are **object oriented programing** (OOP) languages, but does this in a different way then most programming languages. In traditional OOP languages, like C++/C# and Java, you have **classes**, were you have your **variables** and **methodes/functions**.
+```cs
+// C# (not JavsScript/TypeScript)
+class Dog { // a class
+  string name; // a varibale
+  int age; // a variable
+  
+  void Bark () { // a function
+    // code
+  }
+}
+```
+You have here a class named `Dog`.
+`Dog` itself has to be initialized to work. You can think of it as the hardware of a computer. You can buy many computers and they all will have the same parts: a CPU, a GPU, RAM, some drives... but these computers will probably have different CPUs, different amounts of memory... But they all have the same functionality and use the same parts (just with different values).
+Back to programming, all instances of `Dog` will have values for `name` and `age`, but the values themselves may differ from one instance to another. All instances of `Dog` have a function called `Bark()` too. You can execute this part of the code (the function `Bark()`) whenever you want, but if you use `age` or `name` inside the function, it will only use the local values of `age` and `name` (the values of `age` and `name` set in **this instance** of `Dog`).
+In some OOP languages, you have some kind of `Main` class, which has only one instance. So you start from it, and create new instances of other classes in it, and use the variables and functions from these instances to complete your goal.
+To say it simple: a class describes an **object** with it's properties in form of **variables** and **methods/functions**.
+
+
+(An important thing for Java/C++/C# users: there is no global value for `Dog.name` here because you don't have a "main instance" of `Dog`. If you want that all instances of `Dog` have the same value for `Dog.age` at all times, you have to make the variable `age` `static`.)
+
+
+JavaScript/TypeScript is there a bit different. You can have functions **outside** of classes! In fact, you don't have classes, you have **objects**.
+Additionally, you can easily say, do function 1 `f1()` but don't wait until it's finished, but do in parallel function 2 `f2()`. 
+This is archived with the keyword `async`.
+If you have an asynchronous function (an `async` function), but you need the value it will return, you have to use the keyword `await` to signify that the function should be executed first and after it's completely finished, continue.
