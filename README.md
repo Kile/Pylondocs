@@ -1,9 +1,6 @@
 ## Pylondocs
 Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
-## Note
-If you see something I did wrong, a typo, a formal mistake or actual errors of me understandig Pylon's SDK or TypeScript please feel free to contribute with a Pull request
-
 ## Table of contents
 [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
@@ -38,3 +35,7 @@ If you see something I did wrong, a typo, a formal mistake or actual errors of m
 - [**Cron**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
 - [**CPU Burst**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
+## Note
+If you see something I did wrong, a typo, a formal mistake or actual errors of me understandig Pylon's SDK or TypeScript please feel free to contribute with a Pull request
+
