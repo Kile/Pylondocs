@@ -2,7 +2,7 @@
 Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
 ## Table of contents
-[**TypeScript/Pylon**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown)
+[**TypeScript/Pylon Tutorial**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown)
 
 - [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
@@ -37,6 +37,18 @@ Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
   - [**Cron**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
   - [**CPU Burst**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
+
+[**Pylon Examples**](https://github.com/FlorianStrobl/Pylondocs/tree/main/discord.)
+
+- [**Embeds**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./Embed().markdown)
+
+- [**Emojis**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./decor.Emojis.markdown)
+
+- [**Role Colors**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./decor.RoleColors.markdown)
+
+- [**Bot id**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./getBotId().markdown)
+
+- [**Guild**](https://github.com/FlorianStrobl/Pylondocs/blob/main/discord./getGuild().markdown)
 
 ## Note
 If you see something I did wrong, a typo, a formal mistake or actual errors of me understandig Pylon's SDK or TypeScript please feel free to contribute with a Pull request
