@@ -3,6 +3,7 @@ Pylon docs examples, intended to be used by Spencer in the offical Pylon docs
 
 ## Table of contents
 [**TypeScript/Pylon**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown)
+
   [**Introduction**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#javascripttypescript-introduction)
 
   [**Variables**](https://github.com/FlorianStrobl/Pylondocs/blob/main/TypeScript.markdown#variables)
