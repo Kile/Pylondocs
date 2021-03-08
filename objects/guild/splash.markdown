@@ -23,5 +23,5 @@ commands.raw(
       );
     } else await message.reply('This server has no splash thingy (BOOST!!!)');
   }
-
 );
+```
