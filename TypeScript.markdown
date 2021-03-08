@@ -317,11 +317,77 @@ Pretty much everything is an object. Even arrays and functions. Only `string`, `
 # Conventions
 
 # Shorthands
-? :
-!null
-() => {}
-() =>
-.then()
+```ts
+// {}
+if (true === true) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+
+// is the same as
+
+if (true === true)
+  console.log("true");
+else
+  console.log("false");
+
+// but only if one line is executed afterwards!!!
+```
+```ts
+// true
+let x: boolean = true;
+if (x === true) {
+  // x === true returns true
+  console.log("true");
+}
+
+// is the same as
+
+if (x) {
+  // no need to return true since it is already
+  console.log("true");
+}
+```
+```ts
+// !
+```
+```ts
+// ? :
+const y: number = 5;
+let x: number;
+if ( y <= 5 )
+  x = y;
+else
+  x = y - 1;
+
+// Is the same as
+
+const y: number = 5;
+let x: number = (y <= 5) ? y : y - 1;
+```
+```ts
+// !null
+let x: number = null;
+if (x === null) {
+  // true
+}
+
+// is the same as
+
+let x: number = null;
+if (!x) {
+  // true
+  // x has the value null. 
+  // Null is considered as a falsly value. 
+  // If you now say !false it is true...
+}
+```
+```ts
+// () => {}
+// () =>
+// .then()
+```
 
 # Pylon
 
