@@ -6,3 +6,4 @@ commands.raw('servername', async function (message) {
 
   await message.reply(`Guild name: ${ guild.name }`)
 })
+```
