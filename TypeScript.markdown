@@ -132,6 +132,8 @@ anything = false;
 # Functions
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing. You have already seen various functions like console.log(). Normally you get some **arguments/parameters** from the caller, then the function does things and you get finally its **return value**.
 
+// TODO functions without name
+
 Example 1:
 
 ```ts
@@ -318,7 +320,6 @@ Pretty much everything is an object. Even arrays and functions. Only `string`, `
 
 # Shorthands
 ```ts
-// {}
 if (true === true) {
   console.log("true");
 } else {
@@ -332,10 +333,9 @@ if (true === true)
 else
   console.log("false");
 
-// but only if one line is executed afterwards!!!
+// You don't need the {}! (but only if only one line is executed afterwards!!!)
 ```
 ```ts
-// true
 let x: boolean = true;
 if (x === true) {
   // x === true returns true
@@ -344,16 +344,81 @@ if (x === true) {
 
 // is the same as
 
+let x: boolean = true;
 if (x) {
-  // no need to return true since it is already
+  // no need to return true since it is already true!
   console.log("true");
 }
 ```
 ```ts
-// !
+let x: boolean = false;
+if (x === false) {
+  // x IS false so it returns true
+  console.log("true");
+}
+
+// is the same as
+
+let x: boolean = false;
+if (x !== true) {
+  // x is NOT true so it returns true
+  console.log("true");
+}
+
+// is the same as
+
+let x: boolean = false;
+if (!x) {
+  // ! inverts the boolean expression so !false is true
+  console.log("true");
+}
 ```
 ```ts
-// ? :
+// Primitive types in JavaScript/TypeScript can be considered as truly and falsy
+// if you use == and NOT ===
+if ("" == false) {
+  // true statement
+}
+if ("string" == true) {
+  // true statement
+}
+if (!"") {
+  // true statement
+}
+if ("string") {
+  // true statement
+}
+if (0 == false) {
+  // true statement
+}
+// ...
+if (null == false) {
+  // true statement
+}
+if (undefined == false) {
+  // true statement
+}
+// That does NOT work on arrays or objects, even if they are "empty".
+```
+```ts
+// Example for truly and falsy values
+let x: number = null;
+if (x === null) {
+  // x is null so it returns true
+  console.log("true");
+}
+
+// is the same as
+
+let x: number = null;
+if (!x) {
+  // x has the value null. 
+  // Null is considered as a fasly value. 
+  // So you are saing !false which is true...
+  console.log("true");
+}
+```
+```ts
 const y: number = 5;
 let x: number;
 if ( y <= 5 )
@@ -366,25 +431,19 @@ else
 const y: number = 5;
 let x: number = (y <= 5) ? y : y - 1;
 ```
+If you don't know why there are functions without name look [*here*]()
 ```ts
-// !null
-let x: number = null;
-if (x === null) {
-  // true
+function (text: string) {
+  console.log(text);
 }
 
 // is the same as
 
-let x: number = null;
-if (!x) {
-  // true
-  // x has the value null. 
-  // Null is considered as a falsly value. 
-  // If you now say !false it is true...
+(text: string) => {
+  console.log(text);
 }
 ```
 ```ts
-// () => {}
 // () =>
 // .then()
 ```
