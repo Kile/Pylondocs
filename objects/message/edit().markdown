@@ -1,5 +1,5 @@
 ```ts
-commands.raw('timer', async (message) => {
+commands.raw('timer', async function (message) {
   const msg = await message.reply('Timer started: 10 seconds');
   
   await sleep(10000);
