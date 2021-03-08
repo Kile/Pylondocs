@@ -16,11 +16,11 @@ First the basics:
   
   **async functions** are the things you will use to make Pylon do something in response to either:
   
-  \-a command
+  \- a command
   
-  \-an event
+  \- an event
   
-  \-a sceduled task
+  \- a sceduled task
   
   If you try to make Pylon do something outside of an **async function** it will throw an error. There are ways to put code outside these three groups but I will come back to that later
   
